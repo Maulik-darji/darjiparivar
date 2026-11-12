@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="ink">#141414</color>
+    <color name="ink_muted">#6B655E</color>
+    <color name="line">#E4DED6</color>
+    <color name="bg">#F8F5F0</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="primary">#8C1C2B</color>
+    <color name="primary_soft">#F4E7E5</color>
+    <color name="gold">#B8862F</color>
+    <color name="success">#2F6B4F</color>
+    <!-- Dark blocks with white content (nav bar, tags, premium card); stays dark in both themes. -->
+    <color name="ink_block">#141414</color>
+    <!-- Floating glass nav. nav_bg tints the blurred content behind it (Android 12+);
+         nav_bg_solid is used where blur isn't available. -->
+    <color name="nav_bg">#A6FFFFFF</color>
+    <color name="nav_bg_solid">#F5FFFFFF</color>
+    <color name="nav_stroke">#1F000000</color>
+    <color name="nav_highlight">#B3FFFFFF</color>
+    <!-- Active tab: a darker, more blurred glass bubble. -->
+    <color name="nav_pill">#1A000000</color>
+    <color name="nav_pill_stroke">#99FFFFFF</color>
+    <color name="nav_active">#8C1C2B</color>
+</resources>

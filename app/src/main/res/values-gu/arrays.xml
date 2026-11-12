@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="incomes">
+        <item>₹3 લાખ/વર્ષથી ઓછી</item>
+        <item>₹3 – 6 લાખ/વર્ષ</item>
+        <item>₹6 – 10 લાખ/વર્ષ</item>
+        <item>₹10 – 15 લાખ/વર્ષ</item>
+        <item>₹15 – 25 લાખ/વર્ષ</item>
+        <item>₹25 – 50 લાખ/વર્ષ</item>
+        <item>₹50 લાખ/વર્ષથી વધુ</item>
+        <item>જણાવવા માંગતા નથી</item>
+    </string-array>
+
+    <string-array name="families">
+        <item>સંયુક્ત કુટુંબ</item>
+        <item>વિભક્ત કુટુંબ</item>
+        <item>અન્ય</item>
+    </string-array>
+
+
+    <string-array name="report_reasons">
+        <item>નકલી પ્રોફાઇલ અથવા કોઈ બીજાનો ઢોંગ</item>
+        <item>અયોગ્ય ફોટા</item>
+        <item>હેરાનગતિ અથવા અપમાનજનક સંદેશા</item>
+        <item>પૈસાની માંગણી</item>
+        <item>પહેલેથી પરિણીત</item>
+        <item>બીજું કંઈક</item>
+    </string-array>
+</resources>

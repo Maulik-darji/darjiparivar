@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="heights" translatable="false">
+        <item>4\'6\"</item>
+        <item>4\'7\"</item>
+        <item>4\'8\"</item>
+        <item>4\'9\"</item>
+        <item>4\'10\"</item>
+        <item>4\'11\"</item>
+        <item>5\'0\"</item>
+        <item>5\'1\"</item>
+        <item>5\'2\"</item>
+        <item>5\'3\"</item>
+        <item>5\'4\"</item>
+        <item>5\'5\"</item>
+        <item>5\'6\"</item>
+        <item>5\'7\"</item>
+        <item>5\'8\"</item>
+        <item>5\'9\"</item>
+        <item>5\'10\"</item>
+        <item>5\'11\"</item>
+        <item>6\'0\"</item>
+        <item>6\'1\"</item>
+        <item>6\'2\"</item>
+        <item>6\'3\"</item>
+        <item>6\'4\"</item>
+        <item>6\'5\"</item>
+        <item>6\'6\"</item>
+        <item>6\'7\"</item>
+        <item>6\'8\"</item>
+        <item>6\'9\"</item>
+        <item>6\'10\"</item>
+        <item>6\'11\"</item>
+        <item>7\'0\"</item>
+    </string-array>
+
+    <array name="default_age_range">
+        <item>21</item>
+        <item>35</item>
+    </array>
+
+
+    <string-array name="incomes">
+        <item>Below ₹3 LPA</item>
+        <item>₹3 – 6 LPA</item>
+        <item>₹6 – 10 LPA</item>
+        <item>₹10 – 15 LPA</item>
+        <item>₹15 – 25 LPA</item>
+        <item>₹25 – 50 LPA</item>
+        <item>Above ₹50 LPA</item>
+        <item>Prefer not to say</item>
+    </string-array>
+
+    <string-array name="families">
+        <item>Joint family</item>
+        <item>Nuclear family</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="report_reasons">
+        <item>Fake profile or impersonation</item>
+        <item>Inappropriate photos</item>
+        <item>Harassment or abusive messages</item>
+        <item>Asking for money</item>
+        <item>Already married</item>
+        <item>Something else</item>
+    </string-array>
+</resources>

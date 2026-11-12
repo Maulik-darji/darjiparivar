@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">Darji Parivar</string>
+    <string name="lang_english" translatable="false">English</string>
+    <string name="lang_gujarati" translatable="false">ગુજરાતી</string>
+
+    <!-- Welcome -->
+    <string name="brand_label">Darji Parivar · Matrimony</string>
+    <string name="tagline">Find the one who feels like family.</string>
+    <string name="welcome_body">A matrimony space for the Darji community. Verified profiles, families who care, and conversations that start with respect.</string>
+    <string name="welcome_stats">12,400+ verified members · 3,100+ families connected</string>
+
+    <!-- Register -->
+    <string name="step_label">Step 1 of 1</string>
+    <string name="looking_for">I am looking for</string>
+    <string name="bride">A bride</string>
+    <string name="groom">A groom</string>
+    <string name="full_name">Full name</string>
+    <string name="age">Age</string>
+    <string name="city">City</string>
+    <string name="find_matches">Find my matches</string>
+    <string name="err_name">Please enter your name</string>
+    <string name="err_age">You must be 18 or older</string>
+    <string name="err_city">Please enter your city</string>
+
+    <!-- Navigation -->
+    <string name="nav_discover">Discover</string>
+    <string name="nav_matches">Matches</string>
+    <string name="nav_inbox">Inbox</string>
+    <string name="nav_account">Account</string>
+
+    <!-- Discover -->
+    <string name="greeting">Namaste, %1$s</string>
+    <string name="filter_all">All</string>
+    <string name="filter_verified">Verified</string>
+    <string name="filter_online">Online now</string>
+    <string name="filter_premium">Premium</string>
+    <string name="filter_abroad">Abroad</string>
+    <string name="deck_count">%1$d of %2$d</string>
+    <string name="caught_up_title">You\'re all caught up</string>
+    <string name="caught_up_body">Check back later for new profiles, or try another filter.</string>
+    <string name="start_over">Start over</string>
+    <string name="swipe_like">Like</string>
+    <string name="swipe_pass">Pass</string>
+    <string name="pass">Pass</string>
+
+    <!-- Profile -->
+    <string name="tag_verified">✓ Verified</string>
+    <string name="tag_premium">Premium</string>
+    <string name="id_verified">✓ ID Verified</string>
+    <string name="premium_member">Premium member</string>
+    <string name="status_online">● Online now</string>
+    <string name="status_active">Active today</string>
+    <string name="profile_id">ID %1$s</string>
+    <string name="about">About</string>
+    <string name="details">Details</string>
+    <string name="key_age">Age</string>
+    <string name="key_height">Height</string>
+    <string name="key_community">Surname (atak)</string>
+    <string name="community_hint">For example Parmar, Dabhi, Solanki</string>
+    <string name="err_community">Enter your surname (atak)</string>
+    <string name="key_lives_in">Lives in</string>
+    <string name="key_education">Education</string>
+    <string name="key_profession">Profession</string>
+    <string name="key_income">Income</string>
+    <string name="key_family">Family</string>
+    <string name="years">%1$d years</string>
+    <string name="years_short">%1$d yrs</string>
+    <string name="shortlist">Favourite</string>
+    <string name="shortlisted">Favourited</string>
+    <string name="send_interest">Like</string>
+    <string name="interest_sent">Liked</string>
+    <string name="message">Message</string>
+    <string name="msg_shortlist_added">%1$s added to your favourites</string>
+    <string name="msg_shortlist_removed">%1$s removed from favourites</string>
+    <string name="msg_interest_sent">You liked %1$s</string>
+
+    <!-- Matches -->
+    <string name="your_connections">Your connections</string>
+    <string name="tab_received">Likes you</string>
+    <string name="tab_sent">You liked</string>
+    <string name="tab_shortlisted">Favourites</string>
+    <string name="empty_received">No new likes right now. Complete your profile to get noticed.</string>
+    <string name="empty_sent">You haven\'t liked anyone yet. Swipe right on Discover to like someone.</string>
+    <string name="empty_shortlist">No favourites yet. Tap the star on a profile to save it here and see it again later.</string>
+    <string name="status_new">New</string>
+    <string name="status_accepted">Accepted</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_online_short">Online</string>
+    <string name="accept">Like back</string>
+    <string name="decline">Pass</string>
+    <string name="msg_declined">You passed on %1$s</string>
+    <string name="msg_connected">You\'re connected with %1$s. Say hello in Inbox!</string>
+
+    <!-- Inbox / chat -->
+    <string name="conversations">Conversations</string>
+    <string name="inbox_empty">No conversations yet. Like someone back in Matches to start chatting.</string>
+    <string name="you_prefix">You: %1$s</string>
+    <string name="type_message">Write a message</string>
+    <string name="back">Back</string>
+    <string name="send">Send</string>
+    <string name="chat_greeting">Namaste! Thank you for accepting. I liked reading your profile, would love to know more about you and your family.</string>
+    <string-array name="chat_replies">
+        <item>That\'s lovely to hear! What do you enjoy doing on weekends?</item>
+        <item>Haha, same here 😊 My family would love that too.</item>
+        <item>Would you be open to a call with our families sometime next week?</item>
+        <item>Thank you for sharing. Tell me more about your work?</item>
+    </string-array>
+
+    <!-- Account -->
+    <string name="profile_strength">Profile strength</string>
+    <string name="strength_hint">Add photos and family details to get up to 3× more responses.</string>
+    <string name="stat_shortlisted">Favourites</string>
+    <string name="stat_sent">Liked</string>
+    <string name="stat_connected">Connected</string>
+    <string name="premium_label">Darji Parivar Premium</string>
+    <string name="premium_title">See every profile in full: about, family, income and all photos.</string>
+    <string name="upgrade">Subscribe · ₹99/month</string>
+    <string name="language">Language</string>
+    <string name="language_switch">Use Gujarati</string>
+    <string name="language_hint">Show the whole app in ગુજરાતી</string>
+    <string name="menu_edit_profile">Edit profile</string>
+    <string name="menu_partner_prefs">Partner preferences</string>
+    <string name="menu_help">Help &amp; safety tips</string>
+    <string name="logout">Log out</string>
+    <string name="logout_title">Log out?</string>
+    <string name="logout_message">Your favourites and likes on this device will be cleared.</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Language picker (shown before a language is chosen, so it uses both) -->
+    <string name="choose_language_title">Choose your language\nભાષા પસંદ કરો</string>
+    <string name="choose_language_subtitle">You can change this any time in Account.\nતમે આ ગમે ત્યારે એકાઉન્ટમાં બદલી શકો છો.</string>
+    <string name="sample_en" translatable="false">Find your life partner</string>
+    <string name="sample_gu" translatable="false">તમારો જીવનસાથી શોધો</string>
+
+    <!-- Sign in -->
+    <string name="continue_google">Continue with Google</string>
+    <string name="google_failed">Google sign-in didn\'t work. Please try again.</string>
+    <string name="google_not_configured">Google sign-in isn\'t set up in this build yet.</string>
+    <string name="auth_terms">By continuing you agree to our Terms and Privacy Policy. You must be 18 or older.</string>
+    <string name="demo_hint">Demo mode: Google sign-in isn\'t connected yet, so you\'ll continue with a sample account.</string>
+
+    <!-- Profile setup -->
+    <string name="step_of">Step %1$d of %2$d</string>
+    <string name="continue_">Continue</string>
+    <string name="save">Save</string>
+    <string name="state">State / country</string>
+    <string name="step_basics_title">The basics</string>
+    <string name="step_basics_subtitle">This is what people see first.</string>
+    <string name="step_career_title">Education and work</string>
+    <string name="step_career_subtitle">Families often ask about this first.</string>
+    <string name="step_family_title">Family and lifestyle</string>
+    <string name="step_family_subtitle">Help matches understand your background.</string>
+    <string name="about_hint">About you (optional)</string>
+    <string name="step_prefs_title">Partner preferences</string>
+    <string name="step_prefs_subtitle">We\'ll show you profiles in this age range.</string>
+    <string name="pref_age">Age range</string>
+    <string name="pref_age_value">%1$d – %2$d years</string>
+    <string name="pref_hint">You can change this later in Account.</string>
+    <string name="step_photo_title">Add a photo</string>
+    <string name="step_photo_subtitle">Profiles with a clear photo get up to 3× more responses. You can skip this for now.</string>
+    <string name="choose_photo">Choose photo</string>
+    <string name="photo_preview">Your profile photo</string>
+    <string name="photo_private">Only connections see my photo</string>
+    <string name="photo_private_hint">Others see your initials until you both like each other</string>
+    <string name="photo_private_on">Your photo is now visible only to connections</string>
+    <string name="photo_private_off">Your photo is now visible to all members</string>
+    <string name="err_required">This is required</string>
+    <string name="err_photo">Couldn\'t use that photo. Please try another.</string>
+
+    <!-- States and errors -->
+    <string name="retry">Try again</string>
+    <string name="offline_banner">You\'re offline. Showing saved profiles.</string>
+    <string name="err_network">No internet connection. Check your network and try again.</string>
+    <string name="err_generic">Something went wrong. Please try again.</string>
+    <string name="err_daily_limit">You\'ve liked 20 profiles today. You can like more tomorrow.</string>
+    <string name="err_session">Your session has ended. Please sign in again.</string>
+    <string name="err_not_allowed">You can\'t do that for this profile.</string>
+    <string name="err_not_sent">Message not sent. Tap send to try again.</string>
+    <string name="card_description">%1$s, %2$d, %3$s, %4$s. Swipe right to like, left to pass.</string>
+    <string name="say_hello">Say hello 👋</string>
+
+    <!-- Profile / safety -->
+    <string name="more_options">More options</string>
+    <string name="accept_interest">Like back</string>
+    <string name="contact">Contact</string>
+    <string name="contact_hidden">Visible once you both like each other</string>
+    <string name="report">Report</string>
+    <string name="block">Block</string>
+    <string name="report_title">Report %1$s</string>
+    <string name="report_details">Anything else we should know? (optional)</string>
+    <string name="report_send">Send report</string>
+    <string name="report_thanks">Thanks for letting us know</string>
+    <string name="report_also_block">Our team will review this. Do you also want to block %1$s?</string>
+    <string name="block_title">Block %1$s?</string>
+    <string name="block_message">They won\'t be able to see your profile or message you, and you won\'t see them.</string>
+    <string name="not_now">Not now</string>
+
+    <!-- Account -->
+    <string name="settings">Settings</string>
+    <string name="haptics_title">Vibration</string>
+    <string name="haptics_hint">Gentle taps when you swipe, send and toggle</string>
+    <string name="menu_privacy_policy">Privacy policy</string>
+    <string name="demo_banner">Demo mode: you\'re seeing sample profiles. Add Supabase keys to connect real members.</string>
+    <string name="delete_account">Delete account</string>
+    <string name="delete_title">Delete your account?</string>
+    <string name="delete_message">This permanently deletes your profile, photos, likes and messages. It can\'t be undone.</string>
+    <string name="delete_confirm">Delete permanently</string>
+    <string name="version">Version %1$s (%2$d)</string>
+
+    <string name="privacy_body">Last updated: 12 November 2026\n\nDarji Parivar helps members of the Darji community find a life partner. This policy explains what we collect, why, and the choices you have.\n\nWHAT WE COLLECT\n• Account: the name and email address of the Google account you sign in with.\n• Profile: the details you enter, such as name, age, height, city, education, profession, family, about you, partner preferences and your photo.\n• Activity: likes you send and receive, your favourites, blocks, reports and messages.\n• Technical: crash reports (in release builds only) that contain no profile content.\n\nHOW IT IS USED\n• To show your profile to other signed-in members and to show you suitable matches.\n• To deliver likes and messages between members.\n• To keep the community safe: reviewing reports, limiting spam and removing fake profiles.\nWe don\'t sell your data and we don\'t show third-party ads.\n\nWHO CAN SEE WHAT\n• Your profile details are visible to signed-in members, except people you have blocked.\n• Your photo is visible to all members or only to accepted connections, as you choose in Account.\n• Your email address is shown only to members you are connected with (you both liked each other).\n• Messages are visible only to the two people in the conversation.\n\nYOUR CHOICES\n• Edit your profile at any time from Account.\n• Block or report any member from their profile or chat.\n• Delete your account from Account → Delete account. This permanently removes your profile, photos, likes and messages.\n\nSTORAGE AND SECURITY\nData is stored with our hosting provider (Supabase) and protected by access rules, so members can only reach what they are allowed to see. Sign-in tokens stay on your device and are excluded from backups.\n\nCONTACT\nFor privacy questions or requests, contact the Darji Parivar team.</string>
+    <string name="safety_body">• Take your time. Chat in the app until you feel comfortable; you don\'t have to share your contact details straight away.\n\n• Never send money. A genuine match will never ask for money, gifts, recharges or bank details. Report anyone who does.\n\n• Check before you meet. Talk on a video call first and involve your family early.\n\n• Meet in public. For first meetings choose a public place and tell a family member where you are going.\n\n• Protect your privacy. Turn on \"Only connections see my photo\" in Account if you prefer.\n\n• Trust your instincts. If something feels wrong, use Block or Report from the ⋮ menu on their profile or chat. Our team reviews every report.</string>
+    <string name="my_photos">My photos</string>
+    <string name="my_photos_hint">Add up to 6 photos. Your main photo appears on your card; members see the rest on your profile.</string>
+    <string name="add_photo">Add photo</string>
+    <string name="main_photo">Main</string>
+    <string name="make_main_photo">Make main photo</string>
+    <string name="delete_photo">Delete photo</string>
+    <string name="photo_count">%1$d / %2$d</string>
+    <plurals name="photos_added">
+        <item quantity="one">%d photo added</item>
+        <item quantity="other">%d photos added</item>
+    </plurals>
+    <!-- Subscription -->
+    <string name="paywall_title">See every Darji Parivar profile in full</string>
+    <string name="price_monthly" translatable="false">₹99</string>
+    <string name="per_month">/ month</string>
+    <string name="price_note">Billed monthly through Google Play. Cancel anytime.</string>
+    <string name="benefit_profiles">Full profiles: about, family and income</string>
+    <string name="benefit_photos">Every photo in each member\'s gallery</string>
+    <string name="benefit_contact">Contact details once you both like each other</string>
+    <string name="benefit_cancel">No commitment: cancel anytime in Google Play</string>
+    <string name="subscribe_default">Subscribe for ₹99/month</string>
+    <string name="subscribe_for">Subscribe for %1$s/month</string>
+    <string name="restore_purchase">Restore purchase</string>
+    <string name="subscription_terms">Your subscription renews every month until you cancel. Manage or cancel it in Google Play → Payments and subscriptions.</string>
+    <string name="billing_unavailable">Subscriptions aren\'t available right now. Make sure you\'re signed in to Google Play and try again.</string>
+    <string name="verify_failed">We couldn\'t confirm your payment yet. Tap Restore purchase in a moment; you won\'t be charged twice.</string>
+    <string name="nothing_to_restore">No active subscription found on this Google account.</string>
+    <string name="subscribed_title">You\'re subscribed</string>
+    <string name="subscribed_message">Every profile is now unlocked. Thank you for supporting Darji Parivar.</string>
+    <string name="demo_purchase_title">Demo purchase</string>
+    <string name="demo_purchase_message">This build isn\'t connected to Google Play, so no money is taken. Turn on the subscription for 30 days to try it?</string>
+    <string name="demo_purchase_confirm">Turn on</string>
+    <string name="locked_title">See the full profile</string>
+    <string name="locked_body">About, family, income, contact details and all photos are for subscribers.</string>
+    <string name="unlock_for">Unlock for ₹99/month</string>
+    <string name="premium_active">Subscribed. Every profile is unlocked until %1$s.</string>
+    <string name="manage_subscription">Manage subscription</string>
+</resources>

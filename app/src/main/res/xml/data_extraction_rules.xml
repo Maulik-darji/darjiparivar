@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Never back up or transfer sign-in tokens or account data (Android 12+). -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="darji_parivar_supabase.xml" />
+        <exclude domain="sharedpref" path="darji_parivar_demo.xml" />
+        <exclude domain="file" path="." />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="darji_parivar_supabase.xml" />
+        <exclude domain="sharedpref" path="darji_parivar_demo.xml" />
+        <exclude domain="file" path="." />
+    </device-transfer>
+</data-extraction-rules>

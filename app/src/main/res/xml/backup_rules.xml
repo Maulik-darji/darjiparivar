@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Never back up sign-in tokens or account data (Android 11 and below). -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="darji_parivar_supabase.xml" />
+    <exclude domain="sharedpref" path="darji_parivar_demo.xml" />
+    <exclude domain="file" path="." />
+</full-backup-content>

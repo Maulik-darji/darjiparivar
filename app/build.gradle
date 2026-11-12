@@ -1,0 +1,95 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+// Secrets live in local.properties (not committed), e.g.
+//   supabase.url=https://xyz.supabase.co
+//   supabase.anonKey=sb_publishable_...  (Settings → API Keys → Publishable key)
+//   google.webClientId=1234-abc.apps.googleusercontent.com  (OAuth "Web application" client)
+//   sentry.dsn=https://...@sentry.io/...
+//   release.storeFile=/path/to/release.jks  (plus storePassword, keyAlias, keyPassword)
+def localProps = new Properties()
+def localFile = rootProject.file("local.properties")
+if (localFile.exists()) localFile.withInputStream { localProps.load(it) }
+// A -P flag overrides local.properties, e.g. `-Psupabase.url=` builds the offline demo.
+def secret = { String key -> (project.hasProperty(key) ? project.property(key) : (localProps.getProperty(key) ?: "")).toString().trim() }
+
+android {
+    namespace 'com.example.darjiparivar'
+    compileSdk {
+        version = release(36) {
+            minorApiLevel = 1
+        }
+    }
+
+    defaultConfig {
+        // TODO: replace with the real Play Store id before the first release.
+        applicationId "com.example.darjiparivar"
+        minSdk 24
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+
+        buildConfigField "String", "SUPABASE_URL", "\"${secret('supabase.url')}\""
+        buildConfigField "String", "SUPABASE_ANON_KEY", "\"${secret('supabase.anonKey')}\""
+        buildConfigField "String", "GOOGLE_WEB_CLIENT_ID", "\"${secret('google.webClientId')}\""
+        buildConfigField "String", "SENTRY_DSN", "\"${secret('sentry.dsn')}\""
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        release {
+            if (secret('release.storeFile')) {
+                storeFile file(secret('release.storeFile'))
+                storePassword secret('release.storePassword')
+                keyAlias secret('release.keyAlias')
+                keyPassword secret('release.keyPassword')
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            optimization {
+                enable true
+            }
+            if (secret('release.storeFile')) {
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+    buildFeatures {
+        buildConfig true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+}
+
+dependencies {
+    implementation libs.activity.ktx
+    implementation libs.appcompat
+    implementation libs.constraintlayout
+    implementation libs.material
+    implementation libs.recyclerview
+    implementation libs.lifecycle.viewmodel
+    implementation libs.lifecycle.livedata
+    implementation libs.okhttp
+    implementation libs.gson
+    implementation libs.glide
+    implementation libs.sentry.android
+    implementation libs.credentials
+    implementation libs.credentials.play.services
+    implementation libs.googleid
+    implementation libs.billing
+    testImplementation libs.junit
+    androidTestImplementation libs.espresso.core
+    androidTestImplementation libs.espresso.contrib
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.test.core
+}

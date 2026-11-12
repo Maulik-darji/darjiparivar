@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">દરજી પરિવાર</string>
+
+    <!-- Welcome -->
+    <string name="brand_label">દરજી પરિવાર · જીવનસાથી</string>
+    <string name="tagline">એવા જીવનસાથીને શોધો જે પરિવાર જેવા લાગે.</string>
+    <string name="welcome_body">દરજી સમાજ માટે લગ્ન સંબંધનું વિશ્વસનીય સ્થાન. ચકાસાયેલ પ્રોફાઇલ, કાળજી રાખતા પરિવારો અને આદરથી શરૂ થતી વાતચીત.</string>
+    <string name="welcome_stats">12,400+ ચકાસાયેલ સભ્યો · 3,100+ પરિવારો જોડાયા</string>
+
+    <!-- Register -->
+    <string name="step_label">પગલું 1 માંથી 1</string>
+    <string name="looking_for">હું શોધી રહ્યો/રહી છું</string>
+    <string name="bride">કન્યા</string>
+    <string name="groom">વર</string>
+    <string name="full_name">પૂરું નામ</string>
+    <string name="age">ઉંમર</string>
+    <string name="city">શહેર</string>
+    <string name="find_matches">મારા મેચ શોધો</string>
+    <string name="err_name">કૃપા કરીને તમારું નામ લખો</string>
+    <string name="err_age">ઉંમર 18 કે તેથી વધુ હોવી જોઈએ</string>
+    <string name="err_city">કૃપા કરીને તમારું શહેર લખો</string>
+
+    <!-- Navigation -->
+    <string name="nav_discover">શોધો</string>
+    <string name="nav_matches">મેચ</string>
+    <string name="nav_inbox">સંદેશા</string>
+    <string name="nav_account">એકાઉન્ટ</string>
+
+    <!-- Discover -->
+    <string name="greeting">નમસ્તે, %1$s</string>
+    <string name="filter_all">બધા</string>
+    <string name="filter_verified">ચકાસાયેલ</string>
+    <string name="filter_online">હમણાં ઓનલાઇન</string>
+    <string name="filter_premium">પ્રીમિયમ</string>
+    <string name="filter_abroad">વિદેશમાં</string>
+    <string name="deck_count">%2$d માંથી %1$d</string>
+    <string name="caught_up_title">તમે બધી પ્રોફાઇલ જોઈ લીધી</string>
+    <string name="caught_up_body">નવી પ્રોફાઇલ માટે પછી ફરી જુઓ, અથવા બીજું ફિલ્ટર અજમાવો.</string>
+    <string name="start_over">ફરીથી શરૂ કરો</string>
+    <string name="swipe_like">પસંદ</string>
+    <string name="swipe_pass">છોડો</string>
+    <string name="pass">છોડો</string>
+
+    <!-- Profile -->
+    <string name="tag_verified">✓ ચકાસાયેલ</string>
+    <string name="tag_premium">પ્રીમિયમ</string>
+    <string name="id_verified">✓ ઓળખ ચકાસાયેલ</string>
+    <string name="premium_member">પ્રીમિયમ સભ્ય</string>
+    <string name="status_online">● હમણાં ઓનલાઇન</string>
+    <string name="status_active">આજે સક્રિય</string>
+    <string name="profile_id">આઈડી %1$s</string>
+    <string name="about">પરિચય</string>
+    <string name="details">વિગતો</string>
+    <string name="key_age">ઉંમર</string>
+    <string name="key_height">ઊંચાઈ</string>
+    <string name="key_community">અટક</string>
+    <string name="community_hint">જેમ કે પરમાર, ડાભી, સોલંકી</string>
+    <string name="err_community">તમારી અટક લખો</string>
+    <string name="key_lives_in">રહેઠાણ</string>
+    <string name="key_education">શિક્ષણ</string>
+    <string name="key_profession">વ્યવસાય</string>
+    <string name="key_income">આવક</string>
+    <string name="key_family">પરિવાર</string>
+    <string name="years">%1$d વર્ષ</string>
+    <string name="years_short">%1$d વર્ષ</string>
+    <string name="shortlist">મનપસંદ</string>
+    <string name="shortlisted">મનપસંદમાં</string>
+    <string name="send_interest">પસંદ કરો</string>
+    <string name="interest_sent">પસંદ કર્યું</string>
+    <string name="message">સંદેશ</string>
+    <string name="msg_shortlist_added">%1$s તમારા મનપસંદમાં ઉમેરાયા</string>
+    <string name="msg_shortlist_removed">%1$s મનપસંદમાંથી દૂર થયા</string>
+    <string name="msg_interest_sent">તમે %1$s ને પસંદ કર્યા</string>
+
+    <!-- Matches -->
+    <string name="your_connections">તમારા સંબંધો</string>
+    <string name="tab_received">તમને પસંદ કરે છે</string>
+    <string name="tab_sent">તમે પસંદ કર્યા</string>
+    <string name="tab_shortlisted">મનપસંદ</string>
+    <string name="empty_received">હાલમાં કોઈ નવી પસંદ નથી. ધ્યાન ખેંચવા તમારી પ્રોફાઇલ પૂર્ણ કરો.</string>
+    <string name="empty_sent">તમે હજી કોઈને પસંદ કર્યા નથી. કોઈને પસંદ કરવા \'શોધો\' માં જમણે સ્વાઇપ કરો.</string>
+    <string name="empty_shortlist">હજી કોઈ મનપસંદ નથી. પ્રોફાઇલ પર સ્ટાર દબાવો, જેથી તે અહીં સચવાય અને પછી ફરી જોઈ શકો.</string>
+    <string name="status_new">નવું</string>
+    <string name="status_accepted">સ્વીકાર્યું</string>
+    <string name="status_pending">બાકી</string>
+    <string name="status_online_short">ઓનલાઇન</string>
+    <string name="accept">સામે પસંદ કરો</string>
+    <string name="decline">છોડો</string>
+    <string name="msg_declined">તમે %1$s ને છોડ્યા</string>
+    <string name="msg_connected">તમે %1$s સાથે જોડાયા. સંદેશામાં નમસ્તે કહો!</string>
+
+    <!-- Inbox / chat -->
+    <string name="conversations">વાતચીત</string>
+    <string name="inbox_empty">હજી કોઈ વાતચીત નથી. ચેટ શરૂ કરવા મેચમાં કોઈને સામે પસંદ કરો.</string>
+    <string name="you_prefix">તમે: %1$s</string>
+    <string name="type_message">સંદેશ લખો</string>
+    <string name="back">પાછળ</string>
+    <string name="send">મોકલો</string>
+    <string name="chat_greeting">નમસ્તે! સ્વીકારવા બદલ આભાર. તમારી પ્રોફાઇલ વાંચીને ગમ્યું, તમારા અને તમારા પરિવાર વિશે વધુ જાણવું ગમશે.</string>
+    <string-array name="chat_replies">
+        <item>સાંભળીને આનંદ થયો! રજાના દિવસે તમને શું કરવું ગમે છે?</item>
+        <item>હા, મને પણ 😊 મારા પરિવારને પણ ગમશે.</item>
+        <item>આવતા અઠવાડિયે આપણા પરિવારો વાત કરે તો કેવું?</item>
+        <item>જણાવવા બદલ આભાર. તમારા કામ વિશે વધુ જણાવશો?</item>
+    </string-array>
+
+    <!-- Account -->
+    <string name="profile_strength">પ્રોફાઇલની મજબૂતી</string>
+    <string name="strength_hint">ફોટા અને પરિવારની વિગતો ઉમેરો અને 3 ગણા વધુ જવાબ મેળવો.</string>
+    <string name="stat_shortlisted">મનપસંદ</string>
+    <string name="stat_sent">પસંદ કર્યા</string>
+    <string name="stat_connected">જોડાયેલા</string>
+    <string name="premium_label">દરજી પરિવાર પ્રીમિયમ</string>
+    <string name="premium_title">દરેક પ્રોફાઇલ પૂરેપૂરી જુઓ: પરિચય, પરિવાર, આવક અને બધા ફોટા.</string>
+    <string name="upgrade">સબ્સ્ક્રાઇબ કરો · ₹99/મહિનો</string>
+    <string name="language">ભાષા</string>
+    <string name="language_switch">ગુજરાતી વાપરો</string>
+    <string name="language_hint">Switch off for English</string>
+    <string name="menu_edit_profile">પ્રોફાઇલ બદલો</string>
+    <string name="menu_partner_prefs">જીવનસાથીની પસંદગી</string>
+    <string name="menu_help">મદદ અને સલામતી ટીપ્સ</string>
+    <string name="logout">લૉગ આઉટ</string>
+    <string name="logout_title">લૉગ આઉટ કરવું છે?</string>
+    <string name="logout_message">આ ઉપકરણ પરના તમારા મનપસંદ અને પસંદ ભૂંસાઈ જશે.</string>
+    <string name="cancel">રદ કરો</string>
+
+
+    <!-- Sign in -->
+    <string name="continue_google">Google સાથે આગળ વધો</string>
+    <string name="google_failed">Google સાઇન-ઇન થયું નહીં. કૃપા કરીને ફરી પ્રયાસ કરો.</string>
+    <string name="google_not_configured">આ આવૃત્તિમાં હજી Google સાઇન-ઇન ગોઠવાયું નથી.</string>
+    <string name="auth_terms">આગળ વધીને તમે અમારી શરતો અને ગોપનીયતા નીતિ સ્વીકારો છો. તમારી ઉંમર 18 કે તેથી વધુ હોવી જોઈએ.</string>
+    <string name="demo_hint">ડેમો મોડ: Google સાઇન-ઇન હજી જોડાયું નથી, તેથી તમે નમૂનાના એકાઉન્ટ સાથે આગળ વધશો.</string>
+
+    <!-- Profile setup -->
+    <string name="step_of">પગલું %2$d માંથી %1$d</string>
+    <string name="continue_">આગળ</string>
+    <string name="save">સાચવો</string>
+    <string name="state">રાજ્ય / દેશ</string>
+    <string name="step_basics_title">મૂળ માહિતી</string>
+    <string name="step_basics_subtitle">લોકો સૌથી પહેલાં આ જુએ છે.</string>
+    <string name="step_career_title">શિક્ષણ અને કામ</string>
+    <string name="step_career_subtitle">પરિવારો મોટે ભાગે પહેલાં આ વિશે પૂછે છે.</string>
+    <string name="step_family_title">પરિવાર અને જીવનશૈલી</string>
+    <string name="step_family_subtitle">મેચને તમારી પૃષ્ઠભૂમિ સમજવામાં મદદ કરો.</string>
+    <string name="about_hint">તમારા વિશે (વૈકલ્પિક)</string>
+    <string name="step_prefs_title">જીવનસાથીની પસંદગી</string>
+    <string name="step_prefs_subtitle">અમે તમને આ ઉંમરની પ્રોફાઇલ બતાવીશું.</string>
+    <string name="pref_age">ઉંમરની શ્રેણી</string>
+    <string name="pref_age_value">%1$d – %2$d વર્ષ</string>
+    <string name="pref_hint">તમે આ પછીથી એકાઉન્ટમાં બદલી શકો છો.</string>
+    <string name="step_photo_title">ફોટો ઉમેરો</string>
+    <string name="step_photo_subtitle">સ્પષ્ટ ફોટાવાળી પ્રોફાઇલને 3 ગણા વધુ જવાબ મળે છે. હમણાં તમે આ છોડી શકો છો.</string>
+    <string name="choose_photo">ફોટો પસંદ કરો</string>
+    <string name="photo_preview">તમારો પ્રોફાઇલ ફોટો</string>
+    <string name="photo_private">મારો ફોટો ફક્ત જોડાયેલા લોકો જુએ</string>
+    <string name="photo_private_hint">તમે બંને એકબીજાને પસંદ કરો ત્યાં સુધી બીજાને ફક્ત અક્ષર દેખાશે</string>
+    <string name="photo_private_on">હવે તમારો ફોટો ફક્ત જોડાયેલા લોકો જોઈ શકશે</string>
+    <string name="photo_private_off">હવે તમારો ફોટો બધા સભ્યો જોઈ શકશે</string>
+    <string name="err_required">આ જરૂરી છે</string>
+    <string name="err_photo">એ ફોટો વાપરી શકાયો નહીં. કૃપા કરીને બીજો અજમાવો.</string>
+
+    <!-- States and errors -->
+    <string name="retry">ફરી પ્રયાસ કરો</string>
+    <string name="offline_banner">તમે ઓફલાઇન છો. સાચવેલી પ્રોફાઇલ બતાવી રહ્યા છીએ.</string>
+    <string name="err_network">ઇન્ટરનેટ કનેક્શન નથી. નેટવર્ક તપાસીને ફરી પ્રયાસ કરો.</string>
+    <string name="err_generic">કંઈક ખોટું થયું. કૃપા કરીને ફરી પ્રયાસ કરો.</string>
+    <string name="err_daily_limit">તમે આજે 20 પ્રોફાઇલ પસંદ કરી છે. કાલે વધુ પસંદ કરી શકશો.</string>
+    <string name="err_session">તમારું સત્ર પૂરું થયું. કૃપા કરીને ફરી સાઇન ઇન કરો.</string>
+    <string name="err_not_allowed">આ પ્રોફાઇલ માટે તમે એ કરી શકતા નથી.</string>
+    <string name="err_not_sent">સંદેશ મોકલાયો નહીં. ફરી પ્રયાસ કરવા મોકલો દબાવો.</string>
+    <string name="card_description">%1$s, %2$d, %3$s, %4$s. પસંદ કરવા જમણે સ્વાઇપ કરો, છોડવા ડાબે.</string>
+    <string name="say_hello">નમસ્તે કહો 👋</string>
+
+    <!-- Profile / safety -->
+    <string name="more_options">વધુ વિકલ્પો</string>
+    <string name="accept_interest">સામે પસંદ કરો</string>
+    <string name="contact">સંપર્ક</string>
+    <string name="contact_hidden">તમે બંને એકબીજાને પસંદ કરો પછી દેખાશે</string>
+    <string name="report">રિપોર્ટ કરો</string>
+    <string name="block">બ્લોક કરો</string>
+    <string name="report_title">%1$s ની રિપોર્ટ કરો</string>
+    <string name="report_details">બીજું કંઈ જણાવવું છે? (વૈકલ્પિક)</string>
+    <string name="report_send">રિપોર્ટ મોકલો</string>
+    <string name="report_thanks">જણાવવા બદલ આભાર</string>
+    <string name="report_also_block">અમારી ટીમ આની તપાસ કરશે. શું તમે %1$s ને બ્લોક પણ કરવા માંગો છો?</string>
+    <string name="block_title">%1$s ને બ્લોક કરવા છે?</string>
+    <string name="block_message">તેઓ તમારી પ્રોફાઇલ જોઈ કે તમને સંદેશ મોકલી શકશે નહીં, અને તમે પણ તેમને જોશો નહીં.</string>
+    <string name="not_now">હમણાં નહીં</string>
+
+    <!-- Account -->
+    <string name="settings">સેટિંગ્સ</string>
+    <string name="haptics_title">વાઇબ્રેશન</string>
+    <string name="haptics_hint">સ્વાઇપ, મોકલવા અને બદલતી વખતે હળવા ઝટકા</string>
+    <string name="menu_privacy_policy">ગોપનીયતા નીતિ</string>
+    <string name="demo_banner">ડેમો મોડ: તમે નમૂનાની પ્રોફાઇલ જોઈ રહ્યા છો. સાચા સભ્યો જોડવા Supabase કી ઉમેરો.</string>
+    <string name="delete_account">એકાઉન્ટ કાઢી નાખો</string>
+    <string name="delete_title">તમારું એકાઉન્ટ કાઢી નાખવું છે?</string>
+    <string name="delete_message">આનાથી તમારી પ્રોફાઇલ, ફોટા, પસંદ અને સંદેશા કાયમ માટે ભૂંસાઈ જશે. આ પાછું લાવી શકાશે નહીં.</string>
+    <string name="delete_confirm">કાયમ માટે કાઢી નાખો</string>
+    <string name="version">આવૃત્તિ %1$s (%2$d)</string>
+
+    <string name="privacy_body">છેલ્લે અપડેટ: 12 નવેમ્બર 2026\n\nદરજી પરિવાર દરજી સમાજના સભ્યોને જીવનસાથી શોધવામાં મદદ કરે છે. આ નીતિ જણાવે છે કે અમે શું એકત્ર કરીએ છીએ, શા માટે, અને તમારી પાસે કયા વિકલ્પો છે.\n\nઅમે શું એકત્ર કરીએ છીએ\n• એકાઉન્ટ: તમે જે Google એકાઉન્ટથી સાઇન ઇન કરો છો તેનું નામ અને ઇમેઇલ સરનામું.\n• પ્રોફાઇલ: તમે લખેલી વિગતો, જેમ કે નામ, ઉંમર, ઊંચાઈ, શહેર, શિક્ષણ, વ્યવસાય, પરિવાર, તમારો પરિચય, જીવનસાથીની પસંદગી અને તમારો ફોટો.\n• પ્રવૃત્તિ: તમે કરેલી અને મેળવેલી પસંદ, મનપસંદ, બ્લોક, રિપોર્ટ અને સંદેશા.\n• ટેકનિકલ: ક્રેશ રિપોર્ટ (ફક્ત રિલીઝ આવૃત્તિમાં), જેમાં પ્રોફાઇલની કોઈ માહિતી હોતી નથી.\n\nતેનો ઉપયોગ કેવી રીતે થાય છે\n• તમારી પ્રોફાઇલ બીજા સાઇન-ઇન સભ્યોને બતાવવા અને તમને યોગ્ય મેચ બતાવવા.\n• સભ્યો વચ્ચે પસંદ અને સંદેશા પહોંચાડવા.\n• સમાજને સુરક્ષિત રાખવા: રિપોર્ટની તપાસ, સ્પામ પર મર્યાદા અને નકલી પ્રોફાઇલ દૂર કરવી.\nઅમે તમારી માહિતી વેચતા નથી અને બીજી કંપનીઓની જાહેરાતો બતાવતા નથી.\n\nકોણ શું જોઈ શકે\n• તમારી પ્રોફાઇલની વિગતો સાઇન-ઇન સભ્યો જોઈ શકે છે, તમે બ્લોક કરેલા લોકો સિવાય.\n• તમારો ફોટો બધા સભ્યો અથવા ફક્ત જોડાયેલા લોકો જોઈ શકે, જેમ તમે એકાઉન્ટમાં પસંદ કરો.\n• તમારું ઇમેઇલ સરનામું ફક્ત એવા સભ્યોને દેખાય છે જેમની સાથે તમે જોડાયેલા છો (તમે બંનેએ એકબીજાને પસંદ કર્યા હોય).\n• સંદેશા ફક્ત વાતચીતમાંની બે વ્યક્તિઓ જ જોઈ શકે છે.\n\nતમારા વિકલ્પો\n• એકાઉન્ટમાંથી ગમે ત્યારે પ્રોફાઇલ બદલો.\n• કોઈપણ સભ્યને તેમની પ્રોફાઇલ કે ચેટમાંથી બ્લોક અથવા રિપોર્ટ કરો.\n• એકાઉન્ટ → એકાઉન્ટ કાઢી નાખો દ્વારા એકાઉન્ટ કાઢી નાખો. આનાથી તમારી પ્રોફાઇલ, ફોટા, પસંદ અને સંદેશા કાયમ માટે દૂર થાય છે.\n\nસંગ્રહ અને સુરક્ષા\nમાહિતી અમારા હોસ્ટિંગ પ્રદાતા (Supabase) પાસે સંગ્રહિત છે અને ઍક્સેસ નિયમોથી સુરક્ષિત છે, જેથી સભ્યો ફક્ત પોતાને મંજૂર માહિતી જ જોઈ શકે. સાઇન-ઇન ટોકન ફક્ત તમારા ઉપકરણ પર રહે છે અને બેકઅપમાં સામેલ થતા નથી.\n\nસંપર્ક\nગોપનીયતા વિશેના પ્રશ્નો કે વિનંતીઓ માટે દરજી પરિવાર ટીમનો સંપર્ક કરો.</string>
+    <string name="safety_body">• ઉતાવળ ન કરો. તમને સહજ લાગે ત્યાં સુધી એપમાં વાત કરો; તરત જ સંપર્ક વિગતો આપવાની જરૂર નથી.\n\n• ક્યારેય પૈસા ન મોકલો. સાચો જીવનસાથી ક્યારેય પૈસા, ભેટ, રિચાર્જ કે બેંકની વિગતો માંગશે નહીં. આવું કરનારની રિપોર્ટ કરો.\n\n• મળતા પહેલાં ખાતરી કરો. પહેલાં વીડિયો કૉલ પર વાત કરો અને પરિવારને વહેલા સામેલ કરો.\n\n• જાહેર જગ્યાએ મળો. પહેલી મુલાકાતો માટે જાહેર જગ્યા પસંદ કરો અને પરિવારના કોઈ સભ્યને જણાવો કે તમે ક્યાં જાઓ છો.\n\n• તમારી ગોપનીયતા સાચવો. ઇચ્છો તો એકાઉન્ટમાં \"મારો ફોટો ફક્ત જોડાયેલા લોકો જુએ\" ચાલુ કરો.\n\n• તમારી અંતઃપ્રેરણા પર ભરોસો રાખો. કંઈ ખોટું લાગે તો તેમની પ્રોફાઇલ કે ચેટના ⋮ મેનુમાંથી બ્લોક અથવા રિપોર્ટ કરો. અમારી ટીમ દરેક રિપોર્ટની તપાસ કરે છે.</string>
+    <string name="my_photos">મારા ફોટા</string>
+    <string name="my_photos_hint">6 ફોટા સુધી ઉમેરો. મુખ્ય ફોટો તમારા કાર્ડ પર દેખાશે; બાકીના સભ્યો તમારી પ્રોફાઇલ પર જોશે.</string>
+    <string name="add_photo">ફોટો ઉમેરો</string>
+    <string name="main_photo">મુખ્ય</string>
+    <string name="make_main_photo">મુખ્ય ફોટો બનાવો</string>
+    <string name="delete_photo">ફોટો કાઢી નાખો</string>
+    <string name="photo_count">%1$d / %2$d</string>
+    <plurals name="photos_added">
+        <item quantity="one">%d ફોટો ઉમેરાયો</item>
+        <item quantity="other">%d ફોટા ઉમેરાયા</item>
+    </plurals>
+    <!-- Subscription -->
+    <string name="paywall_title">દરજી પરિવારની દરેક પ્રોફાઇલ પૂરેપૂરી જુઓ</string>
+    <string name="per_month">/ મહિનો</string>
+    <string name="price_note">Google Play દ્વારા દર મહિને ચૂકવણી. ગમે ત્યારે રદ કરો.</string>
+    <string name="benefit_profiles">પૂરી પ્રોફાઇલ: પરિચય, પરિવાર અને આવક</string>
+    <string name="benefit_photos">દરેક સભ્યના બધા ફોટા</string>
+    <string name="benefit_contact">બંને એકબીજાને પસંદ કરો પછી સંપર્ક વિગતો</string>
+    <string name="benefit_cancel">કોઈ બંધન નહીં: Google Play માં ગમે ત્યારે રદ કરો</string>
+    <string name="subscribe_default">₹99/મહિનામાં સબ્સ્ક્રાઇબ કરો</string>
+    <string name="subscribe_for">%1$s/મહિનામાં સબ્સ્ક્રાઇબ કરો</string>
+    <string name="restore_purchase">ખરીદી પાછી મેળવો</string>
+    <string name="subscription_terms">તમે રદ ન કરો ત્યાં સુધી સબ્સ્ક્રિપ્શન દર મહિને રિન્યૂ થાય છે. Google Play → ચુકવણી અને સબ્સ્ક્રિપ્શનમાં તેને મેનેજ અથવા રદ કરો.</string>
+    <string name="billing_unavailable">હાલમાં સબ્સ્ક્રિપ્શન ઉપલબ્ધ નથી. Google Play માં સાઇન ઇન છો તેની ખાતરી કરીને ફરી પ્રયાસ કરો.</string>
+    <string name="verify_failed">અમે હજી તમારી ચુકવણીની પુષ્ટિ કરી શક્યા નથી. થોડી વારમાં \'ખરીદી પાછી મેળવો\' દબાવો; તમારે બે વાર ચૂકવવું નહીં પડે.</string>
+    <string name="nothing_to_restore">આ Google એકાઉન્ટ પર કોઈ સક્રિય સબ્સ્ક્રિપ્શન મળ્યું નથી.</string>
+    <string name="subscribed_title">તમે સબ્સ્ક્રાઇબ કર્યું છે</string>
+    <string name="subscribed_message">હવે દરેક પ્રોફાઇલ ખુલ્લી છે. દરજી પરિવારને સમર્થન આપવા બદલ આભાર.</string>
+    <string name="demo_purchase_title">ડેમો ખરીદી</string>
+    <string name="demo_purchase_message">આ આવૃત્તિ Google Play સાથે જોડાયેલી નથી, તેથી કોઈ પૈસા કપાશે નહીં. અજમાવવા 30 દિવસ માટે સબ્સ્ક્રિપ્શન ચાલુ કરવું છે?</string>
+    <string name="demo_purchase_confirm">ચાલુ કરો</string>
+    <string name="locked_title">પૂરી પ્રોફાઇલ જુઓ</string>
+    <string name="locked_body">પરિચય, પરિવાર, આવક, સંપર્ક વિગતો અને બધા ફોટા સબ્સ્ક્રાઇબર માટે છે.</string>
+    <string name="unlock_for">₹99/મહિનામાં ખોલો</string>
+    <string name="premium_active">સબ્સ્ક્રાઇબ કર્યું. %1$s સુધી દરેક પ્રોફાઇલ ખુલ્લી છે.</string>
+    <string name="manage_subscription">સબ્સ્ક્રિપ્શન મેનેજ કરો</string>
+</resources>

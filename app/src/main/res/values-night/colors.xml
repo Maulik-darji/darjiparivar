@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ink">#F2EEE9</color>
+    <color name="ink_muted">#A8A29B</color>
+    <color name="line">#34302D</color>
+    <color name="bg">#121110</color>
+    <color name="surface">#1C1A19</color>
+    <color name="primary">#C8475A</color>
+    <color name="primary_soft">#3A2125</color>
+    <color name="gold">#D2A24E</color>
+    <color name="success">#5BAE86</color>
+    <color name="ink_block">#2A2725</color>
+    <color name="nav_bg">#8C1C1A19</color>
+    <color name="nav_bg_solid">#F21C1A19</color>
+    <color name="nav_stroke">#26FFFFFF</color>
+    <color name="nav_highlight">#1FFFFFFF</color>
+    <color name="nav_pill">#59000000</color>
+    <color name="nav_pill_stroke">#33FFFFFF</color>
+    <color name="nav_active">#FFFFFF</color>
+</resources>

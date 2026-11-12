@@ -1,0 +1,7 @@
+# R8 keep rules for the release build.
+
+# FakeRepository stores ProfileDraft as JSON with Gson (reflection on field names).
+-keep class com.example.darjiparivar.data.ProfileDraft { *; }
+
+# ViewModels are created by reflection through ViewModelProvider.
+-keep class * extends androidx.lifecycle.ViewModel { <init>(...); }

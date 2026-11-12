@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English | ગુજરાતી switch shown throughout onboarding. Wire up with LanguageToggle.bind(). -->
+<com.google.android.material.chip.ChipGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/group_language"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/language"
+    app:chipSpacingHorizontal="4dp"
+    app:selectionRequired="true"
+    app:singleSelection="true">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lang_english" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip_gu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lang_gujarati" />
+</com.google.android.material.chip.ChipGroup>
